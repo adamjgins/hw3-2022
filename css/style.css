@@ -81,8 +81,9 @@ img{
     text-align: right;
     margin-left: 50px;
     border-style:solid;
-    border-left-width: 50px;
     border-bottom-width: 2px;
+    border-left-width: 5px;
+    
 }
 .yellow p{
     color: #707070;
