@@ -5,7 +5,6 @@ body{
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 20px;
 }
 
 div{
@@ -59,8 +58,8 @@ img{
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;   
-    border-right-width: 5px;
-    border-top-width: 2px;
+    border-left-width: 5px;
+    border-bottom-width: 2px;
 }
 
 .blue{
@@ -85,7 +84,7 @@ img{
     border-bottom-width: 2px;
 }
 .yellow p{
-    color: #000000;
+    color: #707070;
 }
 .green{
     background-color: #008500;
