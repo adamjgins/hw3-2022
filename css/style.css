@@ -1,3 +1,32 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@adamjgins 
+adamjgins
+/
+hw3-2022
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+hw3-2022/css/style.css
+@adamjgins
+adamjgins Update style.css
+Latest commit 99dd548 14 minutes ago
+ History
+ 1 contributor
+113 lines (96 sloc)  1.79 KB
+
 body{
     font-family: Arial, Verdana;
     background: #000000;
@@ -60,6 +89,8 @@ img{
     margin-left: 50px;   
     border-left-width: 5px;
     border-bottom-width: 2px;
+    border-top-style: none;
+    border-right-style: none;
 }
 
 .blue{
@@ -68,6 +99,8 @@ img{
     margin-right: 50px;
     border-right-width: 5px;
     border-top-width:2px;
+    border-bottom-style:none;
+    border-left-style: none;
 }
 .blue p{
     color: #C4C4C4;
@@ -80,7 +113,8 @@ img{
     background-color: #ffff00;
     text-align: right;
     margin-left: 50px;
-    border-style:solid;
+    border-top-style: none;
+    border-right-style: none;
     border-bottom-width: 2px;
     border-left-width: 5px;
     
@@ -92,6 +126,8 @@ img{
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
+    border-bottom-style: none;
+    border-left-style: none;
     border-right-width: 5px;
     border-top-width: 2px;
 }
@@ -109,5 +145,6 @@ footer p{
     padding-top: 15px;
     padding-right:15px;
     padding-bottom:15px;
+    padding-left: none;
 
 }
